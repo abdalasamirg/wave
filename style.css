@@ -1,0 +1,547 @@
+body {
+    background-color: rgb(21, 20, 21);
+    font-family: 'Changa', sans-serif;
+    overflow: hidden;
+}
+
+body a {
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    margin: 0px;
+    padding: 0px;
+}
+
+.side {
+    z-index: 2;
+    width: 25%;
+    background-color: rgb(21, 20, 21);
+    height: 100%;
+    height: 100vh;
+    margin: 0;
+    color: white;
+}
+
+.main {
+    z-index: 2;
+    width: 75%;
+    height: 100%;
+    background-color: rgb(29, 29, 29);
+    display: flex;
+    margin: auto;
+    margin: 0;
+    border-radius: 10px;
+    padding-bottom: 30px;
+}
+
+#mainhome {
+    z-index: 2;
+    width: 75%;
+    height: 100%;
+    background-color: rgb(29, 29, 29);
+    color: rgb(21, 183, 198);
+    display: flex;
+    margin: auto;
+    margin: 0;
+    border-radius: 10px;
+    padding-bottom: 30px;
+    position: absolute;
+    left: 100%;
+    transform: translateX(-100%);
+}
+
+.mainlogo {
+    font-size: 200px;
+    font-family: 'Fuzzy Bubbles', cursive;
+    margin: auto;
+    position: absolute;
+    left: 50%;
+}
+
+.cont {
+    width: 100%;
+}
+
+.logo {
+    position: absolute;
+    z-index: -1;
+}
+
+.logo2 {
+    color: rgb(21, 183, 198);
+    font-size: 50px;
+    margin-left: 10px;
+}
+
+.logoicon {
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+}
+
+.side div {
+    padding: 10px;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+
+.text {
+    z-index: 3;
+    margin-top: 30px;
+}
+
+.text div {
+    transition: 0.2s;
+}
+
+.text div:hover {
+    background-color: rgb(124, 122, 122);
+}
+
+.cards {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.card {
+    height: 220px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    background-color: rgb(24, 24, 24);
+    transition: 0.2s;
+    margin-top: 10px;
+}
+
+.card:hover {
+    background-color: rgb(65, 65, 65);
+}
+
+.card-content {
+    text-align: center;
+}
+
+.card-content div {
+    color: rgb(21, 183, 198);
+}
+
+.playButton {
+    background-color: rgb(21, 183, 198);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 50%;
+    margin-bottom: 20px;
+    transform: translateX(-50%);
+    justify-content: center;
+    transition: 0.2s;
+}
+
+.playButton:hover {
+    background-color: rgb(165, 169, 174);
+}
+
+.white {
+    color: white;
+}
+
+.blue {
+    color: rgb(21, 183, 198);
+}
+
+.name a {
+    color: rgb(21, 183, 198);
+    text-decoration: none;
+}
+
+.main2 {
+    position: absolute;
+    left: 100%;
+    transform: translateX(-100%);
+}
+
+.bigvideo iframe {
+    width: 100vh;
+    height: 90vh;
+    border-radius: 20px;
+}
+
+.smallvideo iframe {
+    width: 250px;
+    border-radius: 20px;
+    height: 180px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.wall {
+    z-index: 3;
+    position: absolute;
+    left: 0;
+    opacity: 0;
+    border-radius: 20px;
+    width: 270px;
+    height: 180px;
+}
+
+.nav {
+    background-color: rgb(21, 20, 21);
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.nav a {
+    color: rgb(21, 183, 198);
+    text-decoration: none;
+    justify-content: center;
+    display: flex;
+    border-radius: 30px;
+    width: 150px;
+    height: 45px;
+    align-items: center;
+    transition: 0.2s;
+}
+
+.nav a:hover {
+    background-color: rgb(165, 169, 174);
+    color: white;
+}
+
+.songs {
+    color: rgb(21, 183, 198);
+    font-size: 30px;
+    text-align: center;
+}
+
+.letter {
+    position: absolute;
+    z-index: -1;
+}
+
+.wavechild {
+    color: rgb(165, 169, 174);
+    position: absolute;
+    font-size: 100px;
+    color: rgb(21, 183, 198);
+    top: 50%;
+    transform: translateY(-50%);
+    animation: infinite;
+    text-shadow: 3px 3px 6px rgb(21, 183, 198);
+}
+
+.w {
+    position: absolute;
+    z-index: -1;
+    font-size: 3px;
+    text-shadow: 3px 3px 6px rgb(21, 183, 198);
+}
+
+@keyframes letteranime {
+    0% {
+        top: 50%;
+    }
+    1% {
+        top: 49.92%;
+    }
+    2% {
+        top: 49.84%;
+    }
+    3% {
+        top: 49.760000000000005%;
+    }
+    4% {
+        top: 49.68000000000001%;
+    }
+    5% {
+        top: 49.60000000000001%;
+    }
+    6% {
+        top: 49.52000000000001%;
+    }
+    7% {
+        top: 49.44000000000001%;
+    }
+    8% {
+        top: 49.360000000000014%;
+    }
+    9% {
+        top: 49.280000000000015%;
+    }
+    10% {
+        top: 49.20000000000002%;
+    }
+    11% {
+        top: 49.12000000000002%;
+    }
+    12% {
+        top: 49.04000000000002%;
+    }
+    13% {
+        top: 48.96000000000002%;
+    }
+    14% {
+        top: 48.880000000000024%;
+    }
+    15% {
+        top: 48.800000000000026%;
+    }
+    16% {
+        top: 48.72000000000003%;
+    }
+    17% {
+        top: 48.64000000000003%;
+    }
+    18% {
+        top: 48.56000000000003%;
+    }
+    19% {
+        top: 48.48000000000003%;
+    }
+    20% {
+        top: 48.400000000000034%;
+    }
+    21% {
+        top: 48.320000000000036%;
+    }
+    22% {
+        top: 48.24000000000004%;
+    }
+    23% {
+        top: 48.16000000000004%;
+    }
+    24% {
+        top: 48.08000000000004%;
+    }
+    25% {
+        top: 48%;
+    }
+    26% {
+        top: 48.08%;
+    }
+    27% {
+        top: 48.16%;
+    }
+    28% {
+        top: 48.239999999999995%;
+    }
+    29% {
+        top: 48.31999999999999%;
+    }
+    30% {
+        top: 48.39999999999999%;
+    }
+    31% {
+        top: 48.47999999999999%;
+    }
+    32% {
+        top: 48.55999999999999%;
+    }
+    33% {
+        top: 48.639999999999986%;
+    }
+    34% {
+        top: 48.719999999999985%;
+    }
+    35% {
+        top: 48.79999999999998%;
+    }
+    36% {
+        top: 48.87999999999998%;
+    }
+    37% {
+        top: 48.95999999999998%;
+    }
+    38% {
+        top: 49.03999999999998%;
+    }
+    39% {
+        top: 49.119999999999976%;
+    }
+    40% {
+        top: 49.199999999999974%;
+    }
+    41% {
+        top: 49.27999999999997%;
+    }
+    42% {
+        top: 49.35999999999997%;
+    }
+    43% {
+        top: 49.43999999999997%;
+    }
+    44% {
+        top: 49.51999999999997%;
+    }
+    45% {
+        top: 49.599999999999966%;
+    }
+    46% {
+        top: 49.679999999999964%;
+    }
+    47% {
+        top: 49.75999999999996%;
+    }
+    48% {
+        top: 49.83999999999996%;
+    }
+    49% {
+        top: 49.91999999999996%;
+    }
+    50% {
+        top: 50%;
+    }
+    51% {
+        top: 50.08%;
+    }
+    52% {
+        top: 50.16%;
+    }
+    53% {
+        top: 50.239999999999995%;
+    }
+    54% {
+        top: 50.31999999999999%;
+    }
+    55% {
+        top: 50.39999999999999%;
+    }
+    56% {
+        top: 50.47999999999999%;
+    }
+    57% {
+        top: 50.55999999999999%;
+    }
+    58% {
+        top: 50.639999999999986%;
+    }
+    59% {
+        top: 50.719999999999985%;
+    }
+    60% {
+        top: 50.79999999999998%;
+    }
+    61% {
+        top: 50.87999999999998%;
+    }
+    62% {
+        top: 50.95999999999998%;
+    }
+    63% {
+        top: 51.03999999999998%;
+    }
+    64% {
+        top: 51.119999999999976%;
+    }
+    65% {
+        top: 51.199999999999974%;
+    }
+    66% {
+        top: 51.27999999999997%;
+    }
+    67% {
+        top: 51.35999999999997%;
+    }
+    68% {
+        top: 51.43999999999997%;
+    }
+    69% {
+        top: 51.51999999999997%;
+    }
+    70% {
+        top: 51.599999999999966%;
+    }
+    71% {
+        top: 51.679999999999964%;
+    }
+    72% {
+        top: 51.75999999999996%;
+    }
+    73% {
+        top: 51.83999999999996%;
+    }
+    74% {
+        top: 51.91999999999996%;
+    }
+    75% {
+        top: 52%;
+    }
+    76% {
+        top: 51.92%;
+    }
+    77% {
+        top: 51.84%;
+    }
+    78% {
+        top: 51.760000000000005%;
+    }
+    79% {
+        top: 51.68000000000001%;
+    }
+    80% {
+        top: 51.60000000000001%;
+    }
+    81% {
+        top: 51.52000000000001%;
+    }
+    82% {
+        top: 51.44000000000001%;
+    }
+    83% {
+        top: 51.360000000000014%;
+    }
+    84% {
+        top: 51.280000000000015%;
+    }
+    85% {
+        top: 51.20000000000002%;
+    }
+    86% {
+        top: 51.12000000000002%;
+    }
+    87% {
+        top: 51.04000000000002%;
+    }
+    88% {
+        top: 50.96000000000002%;
+    }
+    89% {
+        top: 50.880000000000024%;
+    }
+    90% {
+        top: 50.800000000000026%;
+    }
+    91% {
+        top: 50.72000000000003%;
+    }
+    92% {
+        top: 50.64000000000003%;
+    }
+    93% {
+        top: 50.56000000000003%;
+    }
+    94% {
+        top: 50.48000000000003%;
+    }
+    95% {
+        top: 50.400000000000034%;
+    }
+    96% {
+        top: 50.320000000000036%;
+    }
+    97% {
+        top: 50.24000000000004%;
+    }
+    98% {
+        top: 50.16000000000004%;
+    }
+    99% {
+        top: 50.08000000000004%;
+    }
+}
+
+@keyframes letters {
+    100% {
+        top: 0%
+    }
+}
